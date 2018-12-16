@@ -2,7 +2,7 @@
 
 Loadable Kernel Module to support PWM on Allwinner H3 / H2+ SoC (sun8i / sun8iw7p1). Works with Orange Pi Zero.
 
-**Tested under Legacy Kernel only (3.4.X)**
+**Tested on Kernel (4.14.X)**
 
 Provides access to PWM configuration parameters from userspace. Only exposes PWM0 (PWM1 will be added once H2+ SoC documentation is available). PWM0 output is on PA05, which is exposed as UART0_RX (middle pin on the UART header). 
 
